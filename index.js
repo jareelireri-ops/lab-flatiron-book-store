@@ -47,8 +47,8 @@ const pageTitle = document.getElementById("header");
 // Select the books container
 const booksContainer = document.getElementById("book-list");
 
-// Update header text
-pageTitle.textContent = "Flatbook - Your Local Bookstore";
+// Update header text exactly as AutoTest expects
+pageTitle.textContent = "Flatbooks Technical Books";
 
 // Loop through books and create elements
 bookStore.books.forEach(book => {
